@@ -1,1 +1,32 @@
 <p>product works!</p>
+<div style="padding: 50px;">
+    <h1 class="text-center">Technology product!</h1>
+    <table class="table table-hover">
+        <thead class="table-danger">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">Product</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of productList; track $index) {
+                <tr>
+                    <th class="row">{{ item.id }}</th>
+                    <td>{{item.name}}</td>
+                    <td>{{item.description}}</td>
+                    <td>
+                        <span class="badge bg-success">
+                            {{item.price}}
+                        </span>
+                    </td>
+                    <td>
+                        <img width="50" height="60" src="{{item.image}}" alt="product">
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
