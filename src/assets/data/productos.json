@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 15 PRO MAX",
+            "description": "Smartphone ed ultima generacion con pantalla OLED de 6.5 pulgadas",
+            "image": "",
+            "price": "999.99"
+        },
+        {
+            "id": 2,
+            "name": "Laptop PRO MAX 15",
+            "description": "Laptop ultima generacion",
+            "image": "",
+            "price": "1200.00"
+        },
+        {
+            "id": 3,
+            "name": "Smartwatch HealthPlus",
+            "description": "Reloj inteligente con muchas funciones",
+            "image": "",
+            "price": "499.99"
+        }
+    ]
+}
